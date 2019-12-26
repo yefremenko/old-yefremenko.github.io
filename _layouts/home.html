@@ -11,7 +11,7 @@ layout: default
 {%- if site.posts.size > 0 -%}
 <ul class="posts">
   <li>
-    <h1 id="posts-label">posts</h1>
+    <h1 id="posts-label">BLOG</h1>
   </li>
 
   {%- for post in site.posts -%}
@@ -26,7 +26,7 @@ layout: default
         <li>{{ tag }}</li>
         {%- endfor -%}
       </ul>
-      <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+      <div class="post-date">{{ post.date | date: date_format }}</div>
     </div>
     <div class="post">
       {%- if site.show_excerpts -%}
