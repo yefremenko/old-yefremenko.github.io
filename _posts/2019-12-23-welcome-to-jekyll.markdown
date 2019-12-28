@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Integrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+title:  "First blog post"
+date:   2019-12-23 12:06:36 -0400
+categories:  Jekyll markdown
+excerpt_separator: <!--more-->
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+Markdown cheatsheat.
+
+<!--more-->
+
+## Code inline
 
 ```javascript
 const Razorpay = require('razorpay');
