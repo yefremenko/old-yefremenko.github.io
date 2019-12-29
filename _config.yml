@@ -4,7 +4,7 @@ email: yevheniia.yefremenko@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   My personal blog. Programmer, Data Scientist, Mathematician.
 show_excerpts: true # set to true to show excerpts on the homepage
-
+permalink: /:year/:month/:day/:title:output_ext
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
@@ -24,7 +24,7 @@ plainwhite:
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: eugenia_fm
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
